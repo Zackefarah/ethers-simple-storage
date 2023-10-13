@@ -13,3 +13,8 @@ struct People {
 }
 // uint256[] public anArray;
     People[] public people;
+        mapping(string => uint256) public nameToFavoriteNumber;
+
+ function store(uint256 _favoriteNumber) public {
+        favoriteNumber = _favoriteNumber;
+    }
