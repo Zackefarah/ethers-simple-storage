@@ -11,3 +11,4 @@ struct People {
     uint256 favoriteNumber;
     string name;
 }
+// uint256[] public anArray;
